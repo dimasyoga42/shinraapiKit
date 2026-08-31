@@ -108,6 +108,7 @@
   {#if error}
     <p class="text-sm text-sky-400 px-6 pb-4">⚠ {error}</p>
   {/if}
+  <div class="w-full border border-b-black"></div>
 </div>
 
 <style>
