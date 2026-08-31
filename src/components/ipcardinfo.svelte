@@ -89,19 +89,19 @@
   <div class="grid grid-cols-2 sm:grid-cols-4 gap-5 p-5">
     <div class="flex flex-col gap-1">
       <span class="text-[11px] tracking-wide text-neutral-500">IP ADDRESS</span>
-      <span class="text-sm font-medium text-blue-400">{loading ? 'Memuat...' : ipData.ip}</span>
+      <span class="text-sm font-medium text-black">{loading ? 'Memuat...' : ipData.ip}</span>
     </div>
     <div class="flex flex-col gap-1">
       <span class="text-[11px] tracking-wide text-neutral-500">PROTOKOL</span>
-      <span class="text-sm font-medium text-sky-500">{ipData.protocol}</span>
+      <span class="text-sm font-medium text-black">{ipData.protocol}</span>
     </div>
     <div class="flex flex-col gap-1">
       <span class="text-[11px] tracking-wide text-neutral-500">LOKASI ANDA</span>
-      <span class="text-sm font-medium text-sky-500">{ipData.city}, {ipData.region}, {ipData.country}</span>
+      <span class="text-sm font-medium text-black">{ipData.city}, {ipData.region}, {ipData.country}</span>
     </div>
     <div class="flex flex-col gap-1">
       <span class="text-[11px] tracking-wide text-neutral-500">ISP</span>
-      <span class="text-sm font-medium text-sky-500">{ipData.isp}</span>
+      <span class="text-sm font-medium text-black">{ipData.isp}</span>
     </div>
   </div>
 
@@ -111,8 +111,7 @@
 </div>
 
 <style>
-  /* Ini elemen internal dari library leaflet, bukan markup kita sendiri,
-     jadi nggak bisa kena Tailwind classes — tetep pakai CSS biasa + :global() */
+
   :global(.leaflet-control-attribution) {
     background: rgba(0, 0, 0, 0.6) !important;
     color: #999 !important;
