@@ -9,5 +9,19 @@
     '/docs': Docs
   };
 </script>
+<svelte:head>
+  <title>Shinra API — Free API untuk Developer</title>
 
+  <meta
+    name="description"
+    content="Shinra API adalah API gratis untuk developer Indonesia tanpa API key, tanpa paywall, dan mudah digunakan."
+  />
+
+  <meta
+    name="keywords"
+    content="Shinra API, API gratis, free API Indonesia, API developer, REST API"
+  />
+
+  <meta name="robots" content="index, follow" />
+</svelte:head>
 <Router {routes} />
