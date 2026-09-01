@@ -2,7 +2,7 @@
   import { link } from 'svelte-spa-router';
 </script>
 <div class="w-full h-90 flex justify-center items-center">
-  <div class="mx-auto m-auto text-center">
+  <div class="mx-auto m-auto pt-17 lg:pt-0 text-center">
     <h1 class="text-6xl uppercase font-extrabold">
       Shinra <span class="text-red-500">Api</span>
     </h1>
