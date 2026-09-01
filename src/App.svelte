@@ -1,15 +1,13 @@
 <script>
-  import Navbar from "./components/navbar.svelte"
-  import Ipcardinfo from "./components/ipcardinfo.svelte"
-  import Footer from "./components/footer.svelte"
-  import About from "./components/about.svelte"
+  import Router from 'svelte-spa-router';
+  import Navbar from './components/navbar.svelte';
+  import Home from './pages/Home.svelte';
+  import Docs from './pages/Docs.svelte';
+
+  const routes = {
+    '/': Home,
+    '/docs': Docs
+  };
 </script>
 
-<div class="flex max-w-7xl m-auto w-full justify-center mx-auto">
-  <div>
-    <Navbar />
-    <Ipcardinfo />
-    <About />
-  </div>
-  <Footer />
-</div>
+<Router {routes} />
