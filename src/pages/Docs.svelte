@@ -2,7 +2,7 @@
   import Navbar from "./../components/navbar.svelte"
 </script>
 <svelte:head>
-  <title>Shinra API DOCS — Free API untuk Developer</title>
+  <title>Shinra API Docs — Free API untuk Developer</title>
   <meta
     name="description"
     content="Shinra API adalah API gratis untuk developer Indonesia tanpa API key, tanpa paywall, dan mudah digunakan."

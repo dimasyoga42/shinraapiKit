@@ -19,7 +19,7 @@
 
   <meta
     name="keywords"
-    content="Shinra API, API gratis, free API Indonesia, API developer, REST API"
+    content="Shinra API, API gratis, free API Indonesia, API developer, REST API, rest api gratis, free rest api"
   />
 
   <meta name="robots" content="index, follow" />
