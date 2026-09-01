@@ -1,9 +1,10 @@
-<script></script>
+<script>
+</script>
 
 <div
-  class="w-full py-24 px-6 flex flex-col md:flex-row justify-center items-center gap-12"
+  class="w-full py-24 px-6 flex flex-col justify-center items-center gap-12"
 >
-  <div class="w-full md:w-1/2">
+  <div class="w-full max-w-5xl">
     <h1 class="uppercase font-extrabold text-3xl">
       Kenapa Harus
     </h1>
@@ -12,27 +13,30 @@
       Shinra API?
     </h1>
 
-    <p class="mt-4 text-gray-600">
+    <p class="mt-4 text-gray-600 max-w-2xl">
       Shinra API merupakan sahabat bagi para developer tanpa limitasi,
       paywall, dan kunci API. Kami hadir dengan infrastruktur yang solid
       dan anonim.
     </p>
   </div>
 
-  <div class="w-full md:w-1/2 flex flex-wrap justify-center items-center gap-2">
-    <div class="md:w-66 w-full h-30 bg-gray-100 rounded-xl flex">
+  <div
+    class="w-full max-w-5xl grid grid-cols-1 sm:grid-cols-2 gap-4"
+  >
+    <div class="w-full min-h-30 bg-gray-100 rounded-xl flex">
       <div class="w-full p-5 m-auto">
         <h1 class="uppercase font-extrabold text-red-500">
           Tanpa Biaya
         </h1>
 
         <p class="text-xs mt-1">
-          Tidak ada biaya tersembunyi. Proyek komunitas developer Indonesia gratis selamanya.
+          Tidak ada biaya tersembunyi. Proyek komunitas developer Indonesia
+          gratis selamanya.
         </p>
       </div>
     </div>
 
-    <div class="md:w-66 w-full h-30 bg-gray-100 rounded-xl flex">
+    <div class="w-full min-h-30 bg-gray-100 rounded-xl flex">
       <div class="w-full p-5 m-auto">
         <h1 class="uppercase font-extrabold text-red-500">
           Tanpa Auth
@@ -44,19 +48,19 @@
       </div>
     </div>
 
-    <div class="md:w-66 w-full h-30 bg-gray-100 rounded-xl flex">
+    <div class="w-full min-h-30 bg-gray-100 rounded-xl flex">
       <div class="w-full p-5 m-auto">
         <h1 class="uppercase font-extrabold text-red-500">
-          infrastruktur solid
+          Infrastruktur Solid
         </h1>
 
         <p class="text-xs mt-1">
-          memiliki infrastruktur yang solid dan mudah digunakan
+          Memiliki infrastruktur yang solid dan mudah digunakan.
         </p>
       </div>
     </div>
 
-    <div class="md:w-66 w-full h-30 bg-gray-100 rounded-xl flex">
+    <div class="w-full min-h-30 bg-gray-100 rounded-xl flex">
       <div class="w-full p-5 m-auto">
         <h1 class="uppercase font-extrabold text-red-500">
           99.9% Uptime
@@ -67,7 +71,5 @@
         </p>
       </div>
     </div>
-
   </div>
 </div>
-<div class="w-full border border-b-black"></div>
