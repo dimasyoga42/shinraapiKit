@@ -26,6 +26,9 @@
       <a href="/docs" use:link class="hover:text-red-500">
         Docs
       </a>
+      <a href="https://shinraapi.betteruptime.com/" use:link class="hover:text-red-500">
+        Monitor
+      </a>
     </nav>
 
     <a
